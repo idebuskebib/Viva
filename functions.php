@@ -6,9 +6,10 @@ function admin_style() {
 }
 add_action('admin_enqueue_scripts', 'admin_style');
 function Viva_scripts_method() {
-
+  wp_enqueue_style('Bootstrap', get_template_directory_uri().'/css/bootstrap.css' );
+  wp_enqueue_style('main', get_template_directory_uri().'/css/main.css');
  //************************script enqueue**************************\\ 
-
+wp_enqueue_script( 'bootstrap', get_template_directory_uri().'/js/bootstrap.js', array('jquery'),'4.2.1', true );
 }
 add_action( 'wp_enqueue_scripts', 'Viva_scripts_method' );
 
