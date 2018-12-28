@@ -7,12 +7,34 @@
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
 						      <img src="<?php echo get_template_directory_uri().'/image/img1.jpg';?>" class="d-block w-100 img-responsive" alt="img1">
-						    </div>
+							    <div class="bg-color"></div>
+	  								<div class="container-fluid">
+					  					<div class="carousel-caption d-none d-md-block col-md-8 col-sm-12 col-md-offset-2 ">
+					    					<h2>HEllO</h2>
+					    					<h1>this is the slider message<h1>
+					 			    	</div>
+				 					</div>
+							</div>
+						  
 						    <div class="carousel-item">
 						      <img src="<?php echo get_template_directory_uri().'/image/img2.jpg';?>" class="d-block w-100 img-responsive" alt="...">
+						      <div class="bg-color"></div>
+	  								<div class="container-fluid">
+					  					<div class="carousel-caption d-none d-md-block col-md-8 col-sm-12 col-md-offset-2 ">
+					    					<h2>HEllO</h2>
+					    					<h1>this is the slider message<h1>
+					 			    	</div>
+				 					</div>
 						    </div>
 						    <div class="carousel-item">
 						      <img src="<?php echo get_template_directory_uri().'/image/img3.jpg';?>" class="d-block w-100 img-responsive" alt="...">
+						      <div class="bg-color"></div>
+	  								<div class="container-fluid">
+					  					<div class="carousel-caption d-none d-md-block col-md-8 col-sm-12 col-md-offset-2 ">
+					    					<h2>HEllO</h2>
+					    					<h1>this is the slider message<h1>
+					 			    	</div>
+				 					</div>
 						    </div>
 						  </div>
 						  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
