@@ -39,5 +39,3 @@
 
 <?php get_footer();?>
 
-
-
