@@ -10,6 +10,7 @@ function Viva_scripts_method() {
   wp_enqueue_style('main', get_template_directory_uri().'/css/main.css');
  //************************script enqueue**************************\\ 
 wp_enqueue_script( 'bootstrap', get_template_directory_uri().'/js/bootstrap.js', array('jquery'),'4.2.1', true );
+wp_enqueue_script( 'main', get_template_directory_uri().'/js/main.js', array(''),'0.0.1', true );
 }
 add_action( 'wp_enqueue_scripts', 'Viva_scripts_method' );
 

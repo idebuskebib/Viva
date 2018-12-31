@@ -1,5 +1,11 @@
 
-<footer id="viva-footer" role="contentinfo">
+<footer id="viva-footer" style="background-image: 
+	    linear-gradient(
+	      rgba(255, 3, 3, 0.8), rgba(255, 0, 0, 0.53) 
+	    ),
+    url(<?php echo get_template_directory_uri().'/image/img2.jpg';?>);" role="contentinfo">
+	<div class></div>
+	
 	<div class="container">
 		<div class="row row-pb-md">
 			<div class="col-md-3 viva-widget">
